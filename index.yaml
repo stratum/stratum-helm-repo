@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   stratum:
   - apiVersion: v2
+    created: "2021-11-30T20:44:32.035484469Z"
+    description: Stratum service
+    digest: dc6bf3dd78e40c863826e43b09ad0b1cf72550d2512f253c3722185b6a2cddc9
+    home: https://www.opennetworking.org/stratum
+    icon: https://guide.opencord.org/logos/stratum.svg
+    keywords:
+    - stratum
+    - sdn
+    - networking
+    kubeVersion: '>=1.12.0'
+    name: stratum
+    type: application
+    urls:
+    - https://charts.stratumproject.org/stratum-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
     created: "2021-06-18T17:57:26.300565416Z"
     description: Stratum service
     digest: fa74b664cbfb884647ef56ed82b50a29164d3aee9d85c113a211673ba15c3a15
@@ -97,4 +113,4 @@ entries:
     urls:
     - https://charts.stratumproject.org/stratum-0.1.7.tgz
     version: 0.1.7
-generated: "2021-06-18T17:57:26.299954721Z"
+generated: "2021-11-30T20:44:32.034702974Z"
